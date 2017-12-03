@@ -43,6 +43,8 @@ pub mod poll;
 
 pub mod net;
 
+pub mod netdb;
+
 #[cfg(any(target_os = "dragonfly",
           target_os = "freebsd",
           target_os = "ios",
